@@ -1,0 +1,2903 @@
+{
+  "app_prefs": {
+    "alerts": {
+      "APPS_1_OOR": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "APPS 1 OUT OF RANGE",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "APPS_1_OOR"
+      },
+      "APPS_2_OOR": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "APPS 2 OUT OF RANGE",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "APPS_2_OOR"
+      },
+      "APPS_IMP": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "APPS IMPLAUSIBLE",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "APPS_IMP"
+      },
+      "BMS_Fault": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "BMS FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BMS_Fault"
+      },
+      "BSE_Fault": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "BSE FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BSE_Fault"
+      },
+      "BTempRF1": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "F BRAKE OVERHEAT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 300,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BTempRF1"
+      },
+      "BTempRF2": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "message": "F Brake Overheat",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 300.0,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BTempRF2"
+      },
+      "BTempRR1": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "B BRAKE OVERHEAT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 300,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BTempRR1"
+      },
+      "BTempRR2": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "message": "B Temp Overheat",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 300.0,
+            "range_type": ">="
+          }
+        ],
+        "channel": "BTempRR2"
+      },
+      "IMD_Fault": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "IMD FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "IMD_Fault"
+      },
+      "INV_FAULT_R": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "INV RUN FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "INV_FAULT_R"
+      },
+      "INV_FAULT_S": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "INV START FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "INV_FAULT_S"
+      },
+      "SDC_Fault": {
+        "alert_rules": [
+          {
+            "activate_sec": 0,
+            "alert_actions": [
+              {
+                "popup_alertaction": {
+                  "color": [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  "message": "SDC FAULT",
+                  "shape": null
+                }
+              }
+            ],
+            "deactivate_sec": 0,
+            "enabled": true,
+            "high_threshold": null,
+            "low_threshold": 1,
+            "range_type": ">="
+          }
+        ],
+        "channel": "SDC_Fault"
+      }
+    },
+    "analysis": {
+      "dashboard_fd02a892-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Map/Speed/Traction",
+        "dash_type": "flowgauge",
+        "gauges": [
+          [
+            {
+              "config": {
+                "Gauge Type": {
+                  "gauge": "Track Map"
+                },
+                "Heat": {},
+                "Splitter height": 250,
+                "Track": {
+                  "last_center": [
+                    39.540863,
+                    -122.33139
+                  ]
+                }
+              }
+            },
+            {
+              "config": {
+                "Gauge Type": {
+                  "gauge": "Scatter Plot"
+                },
+                "Heat": {},
+                "Splitter height": 250,
+                "X Axis": {
+                  "channel": "AccelX"
+                },
+                "Y Axis": {
+                  "channel": "AccelY"
+                }
+              }
+            }
+          ],
+          [
+            {
+              "config": {
+                "Channel": {
+                  "channel": [
+                    "Speed"
+                  ]
+                },
+                "Gauge Type": {
+                  "gauge": "Line Chart"
+                },
+                "Splitter height": 250
+              }
+            }
+          ]
+        ],
+        "locked": false
+      }
+    },
+    "dashboard": {
+      "dashboard_f4beab04-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Predictive Timer",
+        "dash_type": "freeform",
+        "gauges": [
+          {
+            "center_x": 0.185546875,
+            "center_y": 0.40225261464199524,
+            "config": {
+              "Channel": {
+                "channel": "BestLap",
+                "overrides": {
+                  "BestLap": {
+                    "autoselect_color": false,
+                    "base_color": [
+                      1,
+                      0.09999999999999998,
+                      0.775,
+                      1
+                    ],
+                    "max_value": 0,
+                    "min_value": 0,
+                    "precision": 4
+                  }
+                }
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            },
+            "size_hint_x": 0.37109375,
+            "size_hint_y": 0.24135156878519715
+          },
+          {
+            "center_x": 0.498046875,
+            "center_y": 0.38213998390989545,
+            "config": {
+              "Channel": {
+                "channel": "CurrentLap"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            },
+            "size_hint_x": 0.21484375,
+            "size_hint_y": 0.20112630732099762
+          },
+          {
+            "center_x": 0.498046875,
+            "center_y": 0.6436041834271924,
+            "config": {
+              "Channel": {
+                "channel": "PredTime",
+                "overrides": {
+                  "PredTime": {
+                    "autoselect_color": false,
+                    "base_color": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "max_value": 0,
+                    "min_value": 0,
+                    "precision": 4
+                  }
+                }
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            },
+            "size_hint_x": 0.52734375,
+            "size_hint_y": 0.3218020917135962
+          },
+          {
+            "center_x": 0.498046875,
+            "center_y": 0.8793242156074015,
+            "config": {
+              "Gauge Type": {
+                "gauge": "Time Delta"
+              }
+            },
+            "size_hint_x": 0.99609375,
+            "size_hint_y": 0.24135156878519715
+          },
+          {
+            "center_x": 0.810546875,
+            "center_y": 0.40225261464199524,
+            "config": {
+              "Channel": {
+                "channel": "LapTime",
+                "overrides": {
+                  "LapTime": {
+                    "autoselect_color": false,
+                    "base_color": [
+                      0.9,
+                      0.675,
+                      0,
+                      1
+                    ],
+                    "max_value": 0,
+                    "min_value": 0,
+                    "precision": 4
+                  }
+                }
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            },
+            "size_hint_x": 0.37109375,
+            "size_hint_y": 0.24135156878519715
+          },
+          {
+            "center_x": 0.498046875,
+            "center_y": 0.14078841512469834,
+            "config": {
+              "Channel": {
+                "channel": "SessionTime",
+                "overrides": {
+                  "SessionTime": {
+                    "autoselect_color": false,
+                    "base_color": [
+                      0,
+                      0.15,
+                      0.6,
+                      1
+                    ],
+                    "max_value": 0,
+                    "min_value": 0,
+                    "precision": 4
+                  }
+                }
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            },
+            "size_hint_x": 0.64453125,
+            "size_hint_y": 0.28157683024939667
+          }
+        ],
+        "locked": true
+      },
+      "dashboard_fd02a892-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Raw Channels",
+        "dash_type": "freeform",
+        "gauges": [
+          {
+            "center_x": 0.5,
+            "center_y": 0.5,
+            "config": {
+              "Gauge Type": {
+                "gauge": "Raw Channels"
+              }
+            },
+            "size_hint_x": 1,
+            "size_hint_y": 1
+          }
+        ],
+        "locked": true
+      }
+    },
+    "dashboard_bar": {
+      "gauges": {
+        "gauges": [
+          {
+            "config": {
+              "Channel": {
+                "channel": "Utc"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            }
+          },
+          {
+            "config": {
+              "Channel": {
+                "channel": "CurrentLap"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            }
+          },
+          {
+            "config": {
+              "Channel": {
+                "channel": "SessionTime"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "general_prefs": {
+      "analysis_preferences": {
+        "selected_analysis_channels": "Speed",
+        "selected_sessions_laps": "{\"sessions\": {}}"
+      },
+      "dashboard_preferences": {
+        "alerts_dwell_time": "2",
+        "alerts_minimize_time": "5",
+        "camera_preferences": "{'0': '', '1': ''}",
+        "last_channel_meta": "[{\"nm\": \"Interval\", \"ut\": \"ms\", \"min\": 0, \"max\": 0, \"prec\": 0, \"sr\": 1, \"type\": 0}, {\"nm\": \"Utc\", \"ut\": \"ms\", \"min\": 0, \"max\": 0, \"prec\": 0, \"sr\": 1, \"type\": 0}, {\"nm\": \"Battery\", \"ut\": \"Volts\", \"min\": 0.0, \"max\": 20.0, \"prec\": 2, \"sr\": 1, \"type\": 0}, {\"nm\": \"AccelX\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"AccelY\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"AccelZ\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"Yaw\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Pitch\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Roll\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Gsum\", \"ut\": \"G\", \"min\": 0.0, \"max\": 3.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"GsumMax\", \"ut\": \"G\", \"min\": 0.0, \"max\": 3.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"GsumPct\", \"ut\": \"%\", \"min\": 0, \"max\": 100, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_Heart\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_State\", \"ut\": \"\", \"min\": 0, \"max\": 4, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"BMS_Fault\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"IMD_Fault\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"SDC_Fault\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"BSE_Fault\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS_IMP\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS_1_OOR\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS_2_OOR\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_Diag\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_Live\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Front_BP\", \"ut\": \"PSI\", \"min\": 0, \"max\": 5000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Rear_BP\", \"ut\": \"PSI\", \"min\": 0, \"max\": 100, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS1_V\", \"ut\": \"mV\", \"min\": 0, \"max\": 5000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"APPS2_V\", \"ut\": \"mV\", \"min\": 0, \"max\": 5000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"BSE_V\", \"ut\": \"mV\", \"min\": 0, \"max\": 5000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"TorqueCmd\", \"ut\": \"Nm\", \"min\": 0, \"max\": 65535, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"INV_Heart\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"INVFault\", \"ut\": \"\", \"min\": 0, \"max\": 3735928559, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Torque\", \"ut\": \"Nm\", \"min\": -3277, \"max\": 3277, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"RPM\", \"ut\": \"RPM\", \"min\": -32768, \"max\": 32767, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Speed\", \"ut\": \"MPH\", \"min\": 0.0, \"max\": 150.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"AirSpeed\", \"ut\": \"MPH\", \"min\": 0.0, \"max\": 100.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"Pitot_Raw\", \"ut\": \"\", \"min\": 0, \"max\": 1023, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"BR_WSpeed\", \"ut\": \"MPH\", \"min\": 0.0, \"max\": 200.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"BL_WSpeed\", \"ut\": \"MPH\", \"min\": 0.0, \"max\": 200.0, \"prec\": 2, \"sr\": 50, \"type\": 0}, {\"nm\": \"BusVoltage\", \"ut\": \"V\", \"min\": 0.0, \"max\": 100.0, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"BusCurrent\", \"ut\": \"A\", \"min\": 0.0, \"max\": 100.0, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_DCL\", \"ut\": \"A\", \"min\": 0, \"max\": 500, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"VCU_CCL\", \"ut\": \"A\", \"min\": 0.0, \"max\": 500.0, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"IMD_Status\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"BMS_Status\", \"ut\": \"\", \"min\": 0, \"max\": 1, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"ThermID\", \"ut\": \"\", \"min\": 1, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermVal\", \"ut\": \"C\", \"min\": -40, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermMaxID\", \"ut\": \"\", \"min\": 1, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermMax\", \"ut\": \"C\", \"min\": -40, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermMinID\", \"ut\": \"\", \"min\": 1, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermMin\", \"ut\": \"C\", \"min\": -40, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"ThermAvg\", \"ut\": \"C\", \"min\": -40, \"max\": 80, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"PackVoltage\", \"ut\": \"V\", \"min\": -3276.8, \"max\": 3276.7, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"PackCurrent\", \"ut\": \"A\", \"min\": -3277, \"max\": 3277, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"PackPower\", \"ut\": \"kW\", \"min\": -3277, \"max\": 3277, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"LowCell_ID\", \"ut\": \"\", \"min\": 0, \"max\": 80, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"LowCell_V\", \"ut\": \"V\", \"min\": 0.0, \"max\": 6.5535, \"prec\": 4, \"sr\": 50, \"type\": 0}, {\"nm\": \"AvgCell_V\", \"ut\": \"V\", \"min\": 0.0, \"max\": 6.5535, \"prec\": 4, \"sr\": 50, \"type\": 0}, {\"nm\": \"CT1\", \"ut\": \"C\", \"min\": -40, \"max\": 120, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"CT2\", \"ut\": \"C\", \"min\": -40, \"max\": 120, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"CT3\", \"ut\": \"C\", \"min\": -40, \"max\": 120, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"CT4\", \"ut\": \"C\", \"min\": -40, \"max\": 120, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"Fan_PWM\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"Flow\", \"ut\": \"L/min\", \"min\": 0, \"max\": 30, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRF1\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRF2\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRF3\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRF4\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRR1\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRR2\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRR3\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BTempRR4\", \"ut\": \"C\", \"min\": -20, \"max\": 300, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"BR_Shock\", \"ut\": \"mm\", \"min\": 0.0, \"max\": 50.0, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"BL_Shock\", \"ut\": \"mm\", \"min\": 0.0, \"max\": 50.0, \"prec\": 1, \"sr\": 50, \"type\": 0}, {\"nm\": \"CBusFails\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"TBusFails\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"CBusTxErrs\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"CBusRxErrs\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"TBusTxErrs\", \"ut\": \"\", \"min\": 0, \"max\": 255, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"OverPwrCnt\", \"ut\": \"\", \"min\": 0, \"max\": 1000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"PeakPower\", \"ut\": \"\", \"min\": 0, \"max\": 1000, \"prec\": 0, \"sr\": 50, \"type\": 0}]",
+        "last_dash_screen": "dashboard_fd02a892-d2fb-11ea-b330-60a44c5f184c",
+        "pitstoptimer_alert_speed": "25",
+        "pitstoptimer_enabled": "1",
+        "pitstoptimer_exit_speed": "55",
+        "pitstoptimer_trigger_speed": "5",
+        "pittocaralerts_enabled": "1",
+        "pittocaralerts_timeout": "60",
+        "remote_dash_nav_enabled": "1"
+      },
+      "help": {
+        "analysis_welcome": "False",
+        "can_mapping_help": "False",
+        "dashboard_gauge_help": "False",
+        "dbc_import": "False",
+        "gps_warning": "False",
+        "lap_setup": "False",
+        "rc_write_config": "False"
+      },
+      "preferences": {
+        "config_file_dir": "C:\\Users\\caleb\\EV\\DAQ",
+        "conn_type": "USB",
+        "dbc_file_dir": "C:\\Users\\trev\\Downloads",
+        "display_orientation": "Sensor Landscape",
+        "distance_units": "miles",
+        "export_file_dir": "C:\\Users\\Documents",
+        "firmware_dir": "C:\\Users\\Documents",
+        "full_screen_mode": "0",
+        "global_help": "True",
+        "import_datalog_dir": "C:\\Users\\Documents",
+        "import_image_dir": "C:\\Users\\Documents",
+        "import_video_dir": "C:\\Users\\Documents",
+        "last_known_device": "COM3",
+        "preset_file_dir": "C:\\Users\\Documents",
+        "record_session": "1",
+        "send_telemetry": "0",
+        "show_laptimes": "1",
+        "startup_screen": "Home Page",
+        "temperature_units": "Fahrenheit"
+      },
+      "setup": {
+        "setup_enabled": "False"
+      },
+      "track_detection": {
+        "last_selected_track_id": "0",
+        "last_selected_track_timestamp": "0",
+        "user_cancelled_location": "38.98539,-76.950218"
+      }
+    }
+  },
+  "rcpCfg": {
+    "analogCfg": {
+      "0": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog1",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "1": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog2",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "2": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog3",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "3": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog4",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "4": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog5",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "5": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog6",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "6": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog7",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "7": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog8",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "8": {
+        "alpha": 1,
+        "map": {
+          "raw": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ],
+          "scal": [
+            0,
+            1.25,
+            2.5,
+            3.75,
+            5
+          ]
+        },
+        "max": 20,
+        "min": 0,
+        "nm": "Battery",
+        "offset": 0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1,
+        "sr": 1,
+        "ut": "Volts"
+      }
+    },
+    "camCtrlCfg": {
+      "channel": "VCU_State",
+      "en": false,
+      "makeModel": 0,
+      "start": {
+        "gt": true,
+        "thresh": 1.0,
+        "time": 1
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 0.0,
+        "time": 30
+      }
+    },
+    "canCfg": {
+      "baud": [
+        500000,
+        500000
+      ],
+      "en": 1,
+      "term": [
+        1,
+        1
+      ]
+    },
+    "canChanCfg": {
+      "chans": [
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_Heart",
+          "offset": 0,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 1,
+          "max": 4,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_State",
+          "offset": 5,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "BMS_Fault",
+          "offset": 8,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "IMD_Fault",
+          "offset": 9,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "SDC_Fault",
+          "offset": 10,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "BSE_Fault",
+          "offset": 12,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "APPS_IMP",
+          "offset": 13,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "APPS_1_OOR",
+          "offset": 14,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "APPS_2_OOR",
+          "offset": 15,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_Diag",
+          "offset": 1,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_Live",
+          "offset": 2,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 1,
+          "max": 255.0,
+          "min": 0,
+          "mult": 1.0,
+          "nm": "APPS",
+          "offset": 0,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 2,
+          "max": 5000,
+          "min": 0,
+          "mult": 1,
+          "nm": "Front_BP",
+          "offset": 3,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "PSI"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 242,
+          "idMask": 0,
+          "len": 2,
+          "max": 100,
+          "min": 0,
+          "mult": 1,
+          "nm": "Rear_BP",
+          "offset": 0,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "PSI"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 219,
+          "idMask": 0,
+          "len": 2,
+          "max": 5000,
+          "min": 0,
+          "mult": 1,
+          "nm": "APPS1_V",
+          "offset": 2,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mV"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 219,
+          "idMask": 0,
+          "len": 2,
+          "max": 5000,
+          "min": 0,
+          "mult": 1,
+          "nm": "APPS2_V",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mV"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 219,
+          "idMask": 0,
+          "len": 2,
+          "max": 5000,
+          "min": 0,
+          "mult": 1,
+          "nm": "BSE_V",
+          "offset": 6,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mV"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 2,
+          "max": 65535,
+          "min": 0,
+          "mult": 1,
+          "nm": "TorqueCmd",
+          "offset": 1,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "Nm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 172,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "INV_Heart",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 171,
+          "idMask": 0,
+          "len": 4,
+          "max": 3735928559,
+          "min": 0,
+          "mult": 1,
+          "nm": "INVFault",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 172,
+          "idMask": 0,
+          "len": 2,
+          "max": 3277,
+          "min": -3277,
+          "mult": 0.1,
+          "nm": "Torque",
+          "offset": 2,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "Nm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 2,
+          "max": 32767,
+          "min": -32768,
+          "mult": 1,
+          "nm": "RPM",
+          "offset": 6,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "RPM"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 197,
+          "idMask": 0,
+          "len": 2,
+          "max": 150,
+          "min": 0,
+          "mult": 0.01339,
+          "nm": "Speed",
+          "offset": 6,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 242,
+          "idMask": 0,
+          "len": 2,
+          "max": 100,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "AirSpeed",
+          "offset": 2,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 242,
+          "idMask": 0,
+          "len": 2,
+          "max": 1023,
+          "min": 0,
+          "mult": 1,
+          "nm": "Pitot_Raw",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 241,
+          "idMask": 0,
+          "len": 2,
+          "max": 200,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "FR_WSpeed",
+          "offset": 4,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 241,
+          "idMask": 0,
+          "len": 2,
+          "max": 200,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "FL_WSpeed",
+          "offset": 6,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 177,
+          "idMask": 0,
+          "len": 2,
+          "max": 200,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "BR_WSpeed",
+          "offset": 4,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 177,
+          "idMask": 0,
+          "len": 2,
+          "max": 200,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "BL_WSpeed",
+          "offset": 6,
+          "prec": 2,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 167,
+          "idMask": 0,
+          "len": 2,
+          "max": 100,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "BusVoltage",
+          "offset": 0,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "V"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 166,
+          "idMask": 0,
+          "len": 2,
+          "max": 100,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "BusCurrent",
+          "offset": 6,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "A"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 514,
+          "idMask": 0,
+          "len": 2,
+          "max": 99999,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_DCL",
+          "offset": 0,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "A"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 514,
+          "idMask": 0,
+          "len": 2,
+          "max": 99999,
+          "min": 0,
+          "mult": 1,
+          "nm": "VCU_CCL",
+          "offset": 2,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "A"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 514,
+          "idMask": 0,
+          "len": 2,
+          "max": 99999,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "AFWSPD",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 514,
+          "idMask": 0,
+          "len": 2,
+          "max": 99999,
+          "min": 0,
+          "mult": 0.01,
+          "nm": "ARWSPD",
+          "offset": 6,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "MPH"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1714,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "IMD_Status",
+          "offset": 0,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": true,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1714,
+          "idMask": 0,
+          "len": 1,
+          "max": 1,
+          "min": 0,
+          "mult": 1,
+          "nm": "BMS_Status",
+          "offset": 8,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": 1,
+          "mult": 1,
+          "nm": "ThermID",
+          "offset": 3,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": -40,
+          "mult": 1,
+          "nm": "ThermVal",
+          "offset": 2,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": 1,
+          "mult": 1,
+          "nm": "ThermMaxID",
+          "offset": 6,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": -40,
+          "mult": 1,
+          "nm": "ThermMax",
+          "offset": 5,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": 1,
+          "mult": 1,
+          "nm": "ThermMinID",
+          "offset": 7,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 406385536,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": -40,
+          "mult": 1,
+          "nm": "ThermMin",
+          "offset": 4,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1715,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": -40,
+          "mult": 1,
+          "nm": "ThermAvg",
+          "offset": 0,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1714,
+          "idMask": 0,
+          "len": 2,
+          "max": 3276.7,
+          "min": -3276.8,
+          "mult": 0.1,
+          "nm": "PackVoltage",
+          "offset": 2,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "V"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1714,
+          "idMask": 0,
+          "len": 2,
+          "max": 3277,
+          "min": -3277,
+          "mult": 0.1,
+          "nm": "PackCurrent",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "A"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1714,
+          "idMask": 0,
+          "len": 2,
+          "max": 3277,
+          "min": -3277,
+          "mult": 0.1,
+          "nm": "PackPower",
+          "offset": 6,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "kW"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1715,
+          "idMask": 0,
+          "len": 1,
+          "max": 80,
+          "min": 0,
+          "mult": 1,
+          "nm": "LowCell_ID",
+          "offset": 3,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1715,
+          "idMask": 0,
+          "len": 2,
+          "max": 6.5535,
+          "min": 0,
+          "mult": 0.0001,
+          "nm": "LowCell_V",
+          "offset": 1,
+          "prec": 4,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "V"
+        },
+        {
+          "add": 0,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 1715,
+          "idMask": 0,
+          "len": 2,
+          "max": 6.5535,
+          "min": 0,
+          "mult": 0.0001,
+          "nm": "AvgCell_V",
+          "offset": 4,
+          "prec": 4,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "V"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 1,
+          "max": 120,
+          "min": -40,
+          "mult": 1,
+          "nm": "CT1",
+          "offset": 0,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 1,
+          "max": 120,
+          "min": -40,
+          "mult": 1,
+          "nm": "CT2",
+          "offset": 1,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 1,
+          "max": 120,
+          "min": -40,
+          "mult": 1,
+          "nm": "CT3",
+          "offset": 2,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 1,
+          "max": 120,
+          "min": -40,
+          "mult": 1,
+          "nm": "CT4",
+          "offset": 3,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 1,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "Fan_PWM",
+          "offset": 4,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 203,
+          "idMask": 0,
+          "len": 2,
+          "max": 30,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "Flow",
+          "offset": 6,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "L/min"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 251,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRF1",
+          "offset": 0,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 251,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRF2",
+          "offset": 2,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 251,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRF3",
+          "offset": 4,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 251,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRF4",
+          "offset": 6,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 187,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRR1",
+          "offset": 0,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 187,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRR2",
+          "offset": 2,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 187,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRR3",
+          "offset": 4,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": -100,
+          "bigEndian": true,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 187,
+          "idMask": 0,
+          "len": 2,
+          "max": 300,
+          "min": -20,
+          "mult": 0.1,
+          "nm": "BTempRR4",
+          "offset": 6,
+          "prec": 0,
+          "sr": 10,
+          "subId": -1,
+          "type": 0,
+          "ut": "C"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 241,
+          "idMask": 0,
+          "len": 2,
+          "max": 50,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "FR_Shock",
+          "offset": 0,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 241,
+          "idMask": 0,
+          "len": 2,
+          "max": 50,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "FL_Shock",
+          "offset": 2,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 177,
+          "idMask": 0,
+          "len": 2,
+          "max": 50,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "BR_Shock",
+          "offset": 0,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 0,
+          "div": 1,
+          "filtId": 0,
+          "id": 177,
+          "idMask": 0,
+          "len": 2,
+          "max": 50,
+          "min": 0,
+          "mult": 0.1,
+          "nm": "BL_Shock",
+          "offset": 2,
+          "prec": 1,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": "mm"
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "CBusFails",
+          "offset": 3,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 1,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "TBusFails",
+          "offset": 4,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 0,
+          "ut": ""
+        },
+        {
+          "add": 0,
+          "bigEndian": false,
+          "bm": false,
+          "bus": 1,
+          "div": 1,
+          "filtId": 0,
+          "id": 205,
+          "idMask": 0,
+          "len": 2,
+          "max": 255,
+          "min": 0,
+          "mult": 1,
+          "nm": "PIDLimit",
+          "offset": 5,
+          "prec": 0,
+          "sr": 50,
+          "subId": -1,
+          "type": 1,
+          "ut": "Nm"
+        }
+      ],
+      "en": 1
+    },
+    "capabilities": {
+      "channels": {
+        "analog": 9,
+        "can": 2,
+        "canChan": 100,
+        "gpio": 4,
+        "imu": 6,
+        "pwm": 0,
+        "timer": 4
+      },
+      "db": {
+        "script": 16384,
+        "tracks": 50
+      },
+      "flags": [
+        "activetrack",
+        "adc",
+        "bt",
+        "can",
+        "can_term",
+        "cell",
+        "gpio",
+        "gps",
+        "imu",
+        "lua",
+        "obd2",
+        "telemstream",
+        "timer",
+        "tracks",
+        "usb",
+        "wifi",
+        "sd",
+        "camctl"
+      ],
+      "sampleRates": {
+        "gps": 25,
+        "sensor": 1000
+      }
+    },
+    "connCfg": {
+      "btCfg": {
+        "btEn": 0,
+        "name": "",
+        "pass": ""
+      },
+      "cellCfg": {
+        "apnHost": "unet",
+        "apnPass": "",
+        "apnUser": "",
+        "cellEn": 0,
+        "profile": "0"
+      },
+      "telCfg": {
+        "bgStream": 1,
+        "deviceId": "248b89l"
+      }
+    },
+    "gpioCfg": {
+      "0": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO1",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "1": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO2",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "2": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO3",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "3": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO4",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      }
+    },
+    "gpsCfg": {
+      "alt": 0,
+      "dop": 0,
+      "pos": 0,
+      "qual": 0,
+      "sats": 0,
+      "speed": 0,
+      "sr": 0
+    },
+    "imuCfg": {
+      "0": {
+        "alpha": 0.079,
+        "chan": 0,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelX",
+        "prec": 2,
+        "sr": 50,
+        "ut": "G",
+        "zeroVal": -716
+      },
+      "1": {
+        "alpha": 0.079,
+        "chan": 1,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 2,
+        "nm": "AccelY",
+        "prec": 2,
+        "sr": 50,
+        "ut": "G",
+        "zeroVal": -374
+      },
+      "2": {
+        "alpha": 0.079,
+        "chan": 2,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelZ",
+        "prec": 2,
+        "sr": 50,
+        "ut": "G",
+        "zeroVal": 148
+      },
+      "3": {
+        "alpha": 0.079,
+        "chan": 3,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Yaw",
+        "prec": 0,
+        "sr": 50,
+        "ut": "Deg/Sec",
+        "zeroVal": -20
+      },
+      "4": {
+        "alpha": 0.079,
+        "chan": 4,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Pitch",
+        "prec": 0,
+        "sr": 50,
+        "ut": "Deg/Sec",
+        "zeroVal": -255
+      },
+      "5": {
+        "alpha": 0.079,
+        "chan": 5,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Roll",
+        "prec": 0,
+        "sr": 50,
+        "ut": "Deg/Sec",
+        "zeroVal": 141
+      }
+    },
+    "lapCfg": {
+      "bestLap": {
+        "max": 0.0,
+        "min": 0.0,
+        "nm": "BestLap",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      },
+      "currentLap": {
+        "max": 0,
+        "min": 0,
+        "nm": "CurrentLap",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "dist": {
+        "max": 0,
+        "min": 0,
+        "nm": "Distance",
+        "prec": 2,
+        "sr": 0,
+        "ut": "mi"
+      },
+      "elapsedTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "ElapsedTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "lapCount": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapCount",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "lapTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "predTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "PredTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "sector": {
+        "max": 0,
+        "min": 0,
+        "nm": "Sector",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "sectorTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SectorTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "sessionTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SessionTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      }
+    },
+    "obd2Cfg": {
+      "en": 0,
+      "pids": []
+    },
+    "pwmCfg": {},
+    "scriptCfg": {
+      "data": "CAN_BUS = 1 --broadcast on CAN2 (0=CAN1, 1=CAN2)\n\nTICK_RATE = 50\nsetTickRate(TICK_RATE)\n\nTSIL_TIMEOUT_ENABLED = false\n\n-- TSIL timeout in seconds\nTSIL_TIMEOUT = 20\n\n-- TSIL timeout in # of ticks\nTSIL_TIMEOUT_TICKS = TSIL_TIMEOUT * TICK_RATE\n\n-- ID of message to broadcast\nBMS_CAN_ID = 0x6B2\nWSPD_CAN_ID = 0x99\n\n-- if message queue is full, blocks for x milliseconds\nCAN_TIMEOUT = 10\n\n-- Indices of IMD and BMS within the broadcast message\n-- Lua is 1-indexed (pain)\nBMS_INDEX = 2\nIMD_INDEX = 1\n\n-- Channel names\nIMD_STATUS_NAME = \"IMD_Status\"\nBMS_STATUS_NAME = \"BMS_Status\"\nPACK_POWER_NAME = \"PackPower\"\nVCU_STATE_NAME  = \"VCU_State\"\nFR_WSPD_NAME    = \"FR_WSpeed\"\nFL_WSPD_NAME    = \"FL_WSpeed\"\nBR_WSPD_NAME    = \"BR_WSpeed\"\nBL_WSPD_NAME    = \"BL_WSpeed\"\n\nMAX_POWER = 80\n\n-- Messages to broadcast\nbms_msg  = {0, 0, 0, 0, 0, 0, 0, 0}\nwspd_msg = {0, 0, 0, 0, 0, 0, 0, 0}\n\n-- most recent IMD and BMS values\nstored_IMD = 1\nstored_BMS = 1\n\ntimeout_counter = 0\n\nopc_id = addChannel(\"OverPwrCnt\", 50)\nover_power_count = 0\ncurrently_over_power = false\n\npeak_power_id = addChannel(\"PeakPower\", 50)\npeak_power = 0\n\nfunction pack_u16(value)\n    return value & 0xFF, (value >> 8) & 0xFF\nend\n\nfunction onTick()\n\n\t-- reset on playing rtd sound\n\tlocal state = getChannel(VCU_STATE_NAME)\n\tif state ~= nil then\n\t\tif state == 1 then\n\t\t\tcurrently_over_power = false\n\t\t\tover_power_count = 0\n\t\t\tpeak_power = 0\n\t\tend\n\tend\n\n\tlocal pwr = getChannel(PACK_POWER_NAME)\n\tif pwr ~= nil then\n\t\t-- check for over power\n\t\tif pwr >= MAX_POWER then\n\t\t\tif not currently_over_power then\n\t\t\t\tover_power_count = over_power_count + 1\n\t\t\tend\n\t\t\tcurrently_over_power = true\n\t\telse\n\t\t\tcurrently_over_power = false\n\t\tend\n\n\t\t--check for peak power\n\t\tif pwr > peak_power then\n\t\t\tpeak_power = pwr\n\t\tend\n\tend\n\tsetChannel(opc_id, over_power_count)\n\tsetChannel(peak_power_id, peak_power)\n\n\t-- get imd/bms data and update stored_ variables if new data is available, keep them the same\n\t-- if new data is not available\n\tlocal imd = getChannel(IMD_STATUS_NAME)\n\tif imd ~= nil then\n\t\tstored_IMD = imd\n\tend\n\n\n\t-- bms and imd are sent in the same CAN message, so only\n\t-- update timeout for BMS\n\tlocal bms = getChannel(BMS_STATUS_NAME)\n\tif bms ~= nil then\n    \tstored_BMS = bms\n    \ttimeout_counter = 0\n\telse\n    \ttimeout_counter = timeout_counter + 1\n    end\n\n    if TSIL_TIMEOUT_ENABLED and (timeout_counter > TSIL_TIMEOUT_TICKS) then\n    \tstored_BMS = 0\n    \tstored_IMD = 0\n    end\n\n    -- update CAN message\n    bms_msg[IMD_INDEX] = stored_IMD  \n    bms_msg[BMS_INDEX] = stored_BMS\n\n    -- broadcast (0 = not extended)\n    txCAN(CAN_BUS, BMS_CAN_ID, 0, bms_msg, CAN_TIMEOUT)\n\n\tlocal wspd = getChannel(FR_WSPD_NAME)\n\tif wspd ~= nil then wspd_msg[1], wspd_msg[2] = pack_u16(wspd) end\n\twspd = getChannel(FL_WSPD_NAME)\n\tif wspd ~= nil then wspd_msg[3], wspd_msg[4] = pack_u16(wspd) end\n\twspd = getChannel(BR_WSPD_NAME)\n\tif wspd ~= nil then wspd_msg[5], wspd_msg[6] = pack_u16(wspd) end\n\twspd = getChannel(BL_WSPD_NAME)\n\tif wspd ~= nil then wspd_msg[7], wspd_msg[8] = pack_u16(wspd) end\n\n\ttxCAN(CAN_BUS, WSPD_CAN_ID, 0, wspd_msg, CAN_TIMEOUT)\nend",
+      "page": null
+    },
+    "sdLogCtrlCfg": {
+      "channel": "VCU_State",
+      "en": true,
+      "start": {
+        "gt": true,
+        "thresh": 1.0,
+        "time": 1
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 0.0,
+        "time": 30
+      }
+    },
+    "timerCfg": {
+      "0": {
+        "alpha": 1,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      },
+      "1": {
+        "alpha": 1,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM2",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      },
+      "2": {
+        "alpha": 1,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM3",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      },
+      "3": {
+        "alpha": 1,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM4",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      }
+    },
+    "trackCfg": {
+      "autoDetect": 1,
+      "rad": 0.0001,
+      "track": {
+        "id": 0,
+        "sec": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sf": [
+          0,
+          0
+        ],
+        "type": 0
+      }
+    },
+    "trackDb": {
+      "size": 0,
+      "tracks": []
+    },
+    "ver": {
+      "bugfix": 2,
+      "fname": "RaceCapture/Pro MK4",
+      "git_info": "2.20.2",
+      "major": 2,
+      "minor": 20,
+      "name": "RCP_MK4"
+    },
+    "wifiCfg": {
+      "active": true,
+      "ap": {
+        "active": true,
+        "channel": 11,
+        "encryption": "none",
+        "password": "",
+        "ssid": "RaceCapture/Pro MK4 236"
+      },
+      "client": {
+        "active": false,
+        "password": "",
+        "ssid": ""
+      }
+    }
+  }
+}
