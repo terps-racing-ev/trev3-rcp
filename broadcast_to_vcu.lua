@@ -6,7 +6,7 @@ setTickRate(TICK_RATE)
 TSIL_TIMEOUT_ENABLED = false
 
 -- TSIL timeout in seconds
-TSIL_TIMEOUT = 20
+TSIL_TIMEOUT = 30
 
 -- TSIL timeout in # of ticks
 TSIL_TIMEOUT_TICKS = TSIL_TIMEOUT * TICK_RATE
